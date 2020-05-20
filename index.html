@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Payment Gateway</title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Payment Gateway
+            </h1>
+            <a href="./index.html">Gateway</a>
+            <a href="./cards.html">Saved Cards</a>
+        </header>
+
+        <div class="main-content"> 
+            <p> Enter your card details</p>
+            <form class="form">
+                <div id="card_details"> <input placeholder="Card Number" type="text" id="card_number" maxlength="16" placeholder="xxxx xxxx xxxx xxxx"><img class="card_img" src="./images/blank.png" id="card_type"></img></div>
+                
+                <input placeholder="CVV" type="password" disabled id="cvv" maxlength="4">
+                <div id="date_details"><input  disabled type="text"  id="date" Placeholder="MM/YY" ><p id="date_message"></p></div>
+                <button type="submit" id="submit" disabled>Save</button>
+            </form>
+
+            <p id="message-1"></p>
+            <p id="message-2"></p>
+        </div>
+
+
+
+        <footer>
+            <div>
+            Created by - Vikas Bhandari
+        </div>
+        </footer>
+    </body>
+    <script type="text/javascript" src="./payment.js"></script>
+</html>

@@ -1,0 +1,91 @@
+body {
+    color: #333333;
+    font-family: segoe ui;
+    max-width: 650px;
+    margin: 0px auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px ;
+    margin-bottom: 48px;
+    /* background-image: url("../images/are-credit-cards-the-same-in-the-us-and-canada.jpg"); */
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a{
+    color: #888888;
+    margin-right: 16px;
+    text-decoration:none;
+
+}
+
+header a:active {
+    color: #d44c4c;
+    margin-right: 16px;
+    text-decoration:none;
+}
+
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#card_details {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    padding: 8px;
+    color: white;
+    background: #888888;
+}
+
+button:disabled {
+    cursor: auto;
+    background: #c0bdbd;
+}
+
+.card_img {
+    width: auto;
+    height: 32px;
+}
+
+#date_details {
+    display: flex;
+    flex-direction: row;
+}
+
+.card__delete {
+    margin-left: 50px;
+}
+
+.card__item {
+    margin-top: 5px;
+}
